@@ -169,7 +169,7 @@ body{
     }
 }
 
-@media (min-width: 70em){
+@media (min-width: 60em){
     .container{
         width: 75rem;
     }
@@ -213,9 +213,24 @@ body{
     .card_subtitle{
         font-size: .75rem;
     }
-
-
-
-
 }
+
+@media (max-width: 20em){
+    .intro h1{
+        font-size: .85rem;
+    }
+
+    .intro_subtitle{
+        font-size: .75rem;
+    }
+
+    .card_title{
+        font-size: 1rem;
+    }
+
+    .card_subtitle{
+        font-size: .75rem;
+    }
+}
+
 
